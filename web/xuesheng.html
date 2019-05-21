@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生</title>
+    <script>
+        function xstianjia(){
+            document.forms[0].submit();
+        }
+        function toxsQuery() {
+            location="/xsQuery";
+        }
+
+    </script>
+</head>
+<body>
+<form action="/xstianjia" method="post">
+
+    <table border="1" cellspacing="0">
+        <tr align="center">
+            <td></td><td>学生</td>
+        </tr>
+        <tr>
+            <td>姓名</td><td><input type="text" name="xsname"> </td>
+        </tr>
+        <tr>
+            <td>年龄</td><td><input type="text" name="xsage"> </td>
+        </tr>
+        <tr>
+            <td>年级</td><td><input type="text" name="xsnianji"> </td>
+        </tr>
+        <tr>
+            <td>学科</td>
+            <td>
+                <input type="checkbox" value="0" name="xk">语文
+                <input type="checkbox" value="1" name="xk">数学
+                <input type="checkbox" value="2" name="xk">英语
+                <input type="checkbox" value="3" name="xk">物理
+                <input type="checkbox" value="4" name="xk">音乐
+                <input type="checkbox" value="5" name="xk">体育
+            </td>
+        </tr>
+    </table>
+    <input type="button" value="学生添加" onclick="xstianjia()">
+    <input type="button" value="学生列表" onclick="toxsQuery()">
+
+</form>
+</body>
+</html>

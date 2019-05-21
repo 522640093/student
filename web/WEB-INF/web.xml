@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!--学生添加-->
+    <servlet>
+        <servlet-name>xuesheng</servlet-name>
+        <servlet-class>XueShengTjServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xuesheng</servlet-name>
+        <url-pattern>/xstianjia</url-pattern>
+    </servlet-mapping>
+    <!--学生查询-->
+    <servlet>
+        <servlet-name>xs</servlet-name>
+        <servlet-class>XueShengGuanLiQuery</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xs</servlet-name>
+        <url-pattern>/xsQuery</url-pattern>
+    </servlet-mapping>
+</web-app>
