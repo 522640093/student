@@ -4,7 +4,7 @@ import java.util.List;
 
 public class XueSheng {
 
-    //王二狗
+    //王二狗  是个哈士奇
     private String xsname;
     private int xsage;
     private String xsnianji;
