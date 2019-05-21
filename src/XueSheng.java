@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class XueSheng {
+
+    //王二狗
     private String xsname;
     private int xsage;
     private String xsnianji;
